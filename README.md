@@ -1,58 +1,36 @@
-# WEB103 Project 1 - *Name of App Here*
+# List App — Project 1
 
-Submitted by: **Your name here**
+A simple list-based web app showing "Best Local Music Venues".
 
-About this web app: **App description here**
+Features
 
-Time spent: **X** hours
+- Node.js + Express backend serving static HTML and a JSON API
+- Vanilla HTML/CSS/JS frontend using Pico.css for styling
+- Search and genre filter
 
-## Required Features
+Getting started
 
-The following **required** functionality is completed:
+1. Install dependencies
 
-<!-- Make sure to check off completed functionality below -->
-- [ ] **The web app uses only HTML, CSS, and JavaScript without a frontend framework**
-- [ ] **The web app displays a title**
-- [ ] **The web app displays at least five unique list items, each with at least three displayed attributes (such as title, text, and image)**
-- [ ] **The user can click on each item in the list to see a detailed view of it, including all database fields**
-  - [ ] **Each detail view should be a unique endpoint, such as as `localhost:3000/bosses/crystalguardian` and `localhost:3000/mantislords`**
-  - [ ] *Note: When showing this feature in the video walkthrough, please show the unique URL for each detailed view. We will not be able to give points if we cannot see the implementation* 
-- [ ] **The web app serves an appropriate 404 page when no matching route is defined**
-- [ ] **The web app is styled using Picocss**
+```bash
+cd /Users/rubyperez/Documents/CodePath/WEB103/Project1
+npm install
+```
 
-The following **optional** features are implemented:
+2. Start server
 
-- [ ] The web app displays items in a unique format, such as cards rather than lists or animated list items
+```bash
+npm start
+```
 
-The following **additional** features are implemented:
+3. Open http://localhost:3000
 
-- [ ] List anything else that you added to improve the site's functionality!
+Project structure
 
-## Video Walkthrough
+- `server.js` — Express server
+- `data/items.json` — sample data
+- `public/` — static frontend (HTML/CSS/JS)
 
-**Note: please be sure to 
+Notes
 
-Here's a walkthrough of implemented required features:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  Add GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-Describe any challenges encountered while building the app or any additional context you'd like to add.
-
-## License
-
-Copyright [yyyy] [name of copyright owner]
-
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
-
-> http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+This project intentionally uses no frontend frameworks. It's small, self-contained, and ready for extension.

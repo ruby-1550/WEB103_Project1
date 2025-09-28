@@ -1,0 +1,14 @@
+{
+  "name": "list-app-project1",
+  "version": "1.0.0",
+  "description": "A simple list-based web app (no frontend framework) using Express and PicoCSS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

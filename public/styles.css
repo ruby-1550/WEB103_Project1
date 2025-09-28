@@ -1,0 +1,16 @@
+/* Small custom styles */
+:root{--container-max-width:900px}
+main.container{max-width:var(--container-max-width)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1rem}
+.card{text-align: center;padding:1rem;border-radius:8px;border:4px solid rgba(39, 135, 179, 0.824)}
+.card h3{margin-top:0}
+.card .meta{font-size:.9rem;color:rgb(140, 151, 151)}
+header h1 {
+  text-align: center;
+}
+header h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}

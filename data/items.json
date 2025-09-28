@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "The Blue Note",
+    "city": "New York, NY",
+    "genre": "Jazz",
+    "website": "https://www.bluenotejazz.com"
+  },
+  {
+    "id": 2,
+    "name": "The Troubadour",
+    "city": "Los Angeles, CA",
+    "genre": "Indie Rock",
+    "website": "https://www.troubadour.com"
+  },
+  {
+    "id": 3,
+    "name": "9:30 Club",
+    "city": "Washington, D.C.",
+    "genre": "Various",
+    "website": "https://www.930.com"
+  },
+  {
+    "id": 4,
+    "name": "The Roxy Theatre",
+    "city": "West Hollywood, CA",
+    "genre": "Rock",
+    "website": "https://www.theroxy.com"
+  },
+  {
+    "id": 5,
+    "name": "Tipitina's",
+    "city": "New Orleans, LA",
+    "genre": "Funk",
+    "website": "https://www.tipitinas.com"
+  }
+]

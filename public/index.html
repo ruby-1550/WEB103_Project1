@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Local Music Venues — List App</title>
+  <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="container">
+    <header class="h1">
+      <h1 class="h1">Guidebook to Music Venues</h1>
+      <p class="h1">Guidebook to finding the best local music venues.</p>
+    </header>
+
+    <section>
+      <form id="filter-form">
+        <div class="grid">
+          <div>
+            <label for="q">Search</label>
+            <input id="q" name="q" type="search" placeholder="Search by name, city, or genre">
+          </div>
+          <div>
+            <label for="genre">Genre</label>
+            <select id="genre" name="genre">
+              <option value="">All genres</option>
+            </select>
+          </div>
+        </div>
+      </form>
+
+      <div id="list" class="cards"></div>
+    </section>
+
+    <footer>
+      <p>Built with Pico.css • Data is static JSON served from Express</p>
+    </footer>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
